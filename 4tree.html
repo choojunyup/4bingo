@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://zanghscoding.iptime.org/4mok/ -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"/>
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <!--  Meta  -->
+  
+  <title></title>
+  
+  <!--  Styles  -->
+  <link href="css/css.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.processed.css">
+</head>
+<body>
+
+
+  <div class="popup">
+
+
+    <div class="popup-panel">
+
+    <div class="icon-panel">
+      <center>
+        <img class="icon" src="img/icon.png"/>
+      </center>
+    </div>
+
+    <div class="menubox">
+
+      <div class="label-popup">
+        <center>
+        <img class="label-deco label-line" src="img/left.png">
+        <div class="label-line"><h2>게임 난이도 선택</h2></div>
+        <img class="label-deco label-line" src="img/right.png">
+        </center>
+      </div>
+
+      <div class="dif-options">
+        <div>
+          <input id="dif1" type="radio" name="dif-options" value="1">
+          <label for="dif1">1</label>
+        </div>
+        <div>
+          <input id="dif2" type="radio" name="dif-options" value="2">
+          <label for="dif2">2</label>
+        </div>
+        <div>
+          <input id="dif3" type="radio" name="dif-options" value="3" checked="">
+          <label for="dif3">3</label>
+        </div>
+        <div>
+          <input id="dif4" type="radio" name="dif-options" value="4">
+          <label for="dif4">4</label>
+        </div>
+        <div>
+          <input id="dif5" type="radio" name="dif-options" value="5">
+          <label for="dif5">5</label>
+        </div>
+      </div>
+      <div class="start">
+        <button>Start Game</button>
+      </div>
+     </div>
+
+   </div>
+
+  </div>
+
+
+
+
+
+  <div class="wrapper">
+
+    <div class="content">
+
+
+
+      <div class="sidebar">
+        <center>
+        <div class="panel info">
+          <h2>Computer Wins</h2>
+          <div class="blurb">아쉽군요. 당신이 졌습니다. 다시 도전하세요.</div>
+          <div class="outlook" style="display: none;">Uh oh, computer is feeling saucy!</div>
+
+          <div class="endmenu">
+            <div class="replay btn-inline">replay</div>
+            <div class="home btn-inline">title</div>
+          </div>
+
+        </div>
+        </center>
+      </div>
+
+      <div class="temp">
+      </div>
+
+      <div class="board">
+        <div class="lit-columns">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="lit-cells"></div>
+        <div class="chips"></div>
+        <div class="click-columns">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!--<script src="js/worker.js"></script>-->
+  <script src="js/index.js"></script>
+  <script type="text/javascript">
+/*
+      var box = document.getElementById('box');
+      var scale = 1;
+
+      resize();
+
+      function resize(){
+        var width = window.innerWidth;
+        var height = window.innerHeight;
+        //var width = document.querySelector('body').width;
+        //var height = document.querySelector('body').height;
+        var boxW = 480;
+        var boxH = 640;
+        var ratio = boxW/boxH;
+        var present_ratio = width/height;
+
+
+        //alert(boxW +"--"+width);
+
+        if(present_ratio > ratio){
+          scale = (height/boxH)-0.2;
+        }else{
+          scale = (width/boxW)-0.2;
+        }
+        //alert(boxW +"--"+width);
+        //alert(scale);
+
+        box.style.transform='scale('+scale+')';
+        box.style.width = boxW*scale+"px";
+        box.style.height = boxH*scale+"px";
+      }
+
+      window.onresize = function(){
+        resize();
+      }
+*/
+  </script>
+
+</body></html>
